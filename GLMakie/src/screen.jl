@@ -235,6 +235,8 @@ function empty_screen(debugging::Bool; reuse=true)
         (GLFW.AUX_BUFFERS,  0),
 
         (GLFW.SCALE_TO_MONITOR, true),
+
+        (GLFW.AUTO_ICONIFY, false)
     ]
     resolution = (10, 10)
     window = try
